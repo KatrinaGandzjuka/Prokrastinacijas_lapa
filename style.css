@@ -38,3 +38,9 @@ body {
     display: inline-block;
     line-height: 1em;
   }
+  
+  #poga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
