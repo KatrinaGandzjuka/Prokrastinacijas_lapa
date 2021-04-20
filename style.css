@@ -38,9 +38,23 @@ body {
     display: inline-block;
     line-height: 1em;
   }
-  
+
   #poga {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+#jaunsUzdevums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(246, 245, 240);
+    border: 2px solid rgb(195, 158, 158);
+    font-family: Verdana, sans-serif;
+    color: rgb(195, 158, 158);
+
+}
+

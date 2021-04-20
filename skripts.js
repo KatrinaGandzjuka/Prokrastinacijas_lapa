@@ -1,3 +1,7 @@
+const POP_UP = document.getElementById('popUp');
+let darbini = [];
+
+
 var textWrapper = document.querySelector('.animacija .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
 
@@ -29,3 +33,14 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+
+  window.addEventListener('load', () => {
+    darbini = JSON.parse(localStorage.getItem("darbini") || "[]");
+    console.log(darbini)
+    render();
+});
+
+document.getElementById('jaunsUzdevums').addEventListener('click', () => {
+    POP_UP.style.display = 'block';
+
+})
