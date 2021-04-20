@@ -56,3 +56,18 @@ document.getElementById('pievienotUzdevumu').addEventListener('click', () => {
 
     render();
 })
+function render() {
+    let saraksts = document.getElementById('saraksts');
+    saraksts.innerHTML = "";
+
+    for(let i = 0; i < darbini.length; i++) {
+        let darbinins = `
+        <div class="darbinins">
+            <p>Uzdevums: ${darbini[i].uzdevums}  Termiņš: ${darbini[i].termins}  </p>
+        </div>`;
+
+        saraksts.innerHTML += darbinins;
+    }
+
+    localStorage.setItem("darbini", JSON.stringify(darbini))
+}
