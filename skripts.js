@@ -44,3 +44,15 @@ document.getElementById('jaunsUzdevums').addEventListener('click', () => {
     POP_UP.style.display = 'block';
 
 })
+document.getElementById('pievienotUzdevumu').addEventListener('click', () => {
+    POP_UP.style.display = 'none';
+
+    let darbinins = {uzdevums: uzdevums.value, termins: termins.value};
+
+    uzdevums.value = "";
+    termins.value = "";
+
+    darbini.push(darbinins);
+
+    render();
+})
