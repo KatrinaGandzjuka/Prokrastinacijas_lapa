@@ -105,4 +105,10 @@ input#termins {
     font-family: Verdana, sans-serif;
     color:rgb(61, 61, 59)
 }
+#saraksts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
