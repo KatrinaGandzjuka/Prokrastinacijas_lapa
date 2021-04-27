@@ -1,47 +1,37 @@
 <!DOCTYPE html>
 <html lang="lv">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Prokrastinācijas lapa</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 class="animacija">
-        <span class="text-wrapper">
-          <span class="line line1"></span>
-          <span class="letters">Prokrastinācijas lapa</span>
-        </span>
-      </h1>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span class="letters">Prokrastinācijas lapa</span>
+      </span>
+    </h1>
 
-      <div id="poga">
-        <button id="jaunsUzdevums">Jauns uzdevums</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <div id="poga">
+      <button id="jaunsUzdevums">Jauns uzdevums</button>
     </div>
 
     <div id="popUp">
-        <form id="form">
-            <h3>Pievienojiet uzdevumu</h3>
-            <input type="text" id="uzdevums" placeholder="Uzdevums">
-            <input type="text" id="termins" placeholder="Termiņš">
-            <button type="submit" id="pievienotUzdevumu">Pievienot</button>
-        </form>
+      <form id="form">
+        <h3>Pievienojiet uzdevumu</h3>
+        <input type="text" id="uzdevums" placeholder="Uzdevums" />
+        <input type="text" id="termins" placeholder="Termiņš" />
+        <button type="submit" id="pievienotUzdevumu">Pievienot</button>
+      </form>
     </div>
 
-    <div id="saraksts">
-    </div>
+    <div id="saraksts"></div>
 
-
-    
-    
-    
-    
-    
-    
-    
-    
-      <script src="skripts.js"></script>
-    </body>
-    </html>
+    <script src="skripts.js"></script>
+  </body>
+</html>

@@ -1,129 +1,126 @@
 body {
-    background-color:rgb(249, 249, 249);
+  background-color: rgb(249, 249, 249);
 }
 
 .animacija {
-    font-weight: 700;
-    font-size: 3.5em;
-    display: flex;
-    justify-content: center;
-    font-family: Verdana, sans-serif;
-    color: rgb(213, 94, 45) ;
-  }
-  
-  .animacija .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.1em;
-    padding-right: 0.05em;
-    padding-bottom: 0.15em;
-  }
-  
-  .animacija .line {
-    opacity: 0;
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 3px;
-    background-color:rgb(213, 94, 45);
-    transform-origin: 0 50%;
-  }
-  
-  .animacija .line1 { 
-    top: 0; 
-    left: 0;
-  }
-  
-  .animacija .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
+  font-weight: 700;
+  font-size: 3.5em;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, sans-serif;
+  color: rgb(213, 94, 45);
+}
 
-  #poga {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.animacija .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.animacija .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: rgb(213, 94, 45);
+  transform-origin: 0 50%;
+}
+
+.animacija .line1 {
+  top: 0;
+  left: 0;
+}
+
+.animacija .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+#poga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #jaunsUzdevums {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height: 50px;
-    font-size: 25px;
-    background-color: rgb(249, 249, 249);
-    border: 2px solid rgb(213, 94, 45);
-    font-family: Verdana, sans-serif;
-    color: rgb(213, 94, 45);
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  font-size: 25px;
+  background-color: rgb(249, 249, 249);
+  border: 2px solid rgb(213, 94, 45);
+  font-family: Verdana, sans-serif;
+  color: rgb(213, 94, 45);
 }
 input#uzdevums {
-    height: 30px;
-    width: 200px;
-    font-size: 20px;
-    border: solid 2px rgb(213, 94, 45);
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  border: solid 2px rgb(213, 94, 45);
 }
 
 input#termins {
-    height: 30px;
-    width: 200px;
-    font-size: 20px;
-    border: solid 2p rgb(213, 94, 45);
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  border: solid 2p rgb(213, 94, 45);
 }
 
 #pievienotUzdevumu {
-    font-size: 20px;
-    height: 30px;
-    width: 150px;
-    border-radius: 15px;
-    background-color: rgb(249, 249, 249);
-    border: 2px solid rgb(42, 105, 33);
-    font-family: Verdana, sans-serif;
-    color: rgb(42, 105, 33);
-
+  font-size: 20px;
+  height: 30px;
+  width: 150px;
+  border-radius: 15px;
+  background-color: rgb(249, 249, 249);
+  border: 2px solid rgb(42, 105, 33);
+  font-family: Verdana, sans-serif;
+  color: rgb(42, 105, 33);
 }
 #popUp {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.2);
-    font-size: 30px;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 30px;
 }
 
 #form {
-    background-color: rgb(246, 240, 241);
-    margin: 15% auto;
-    padding: 20px;
-    border: none;
-    width: 25%;
-    border-radius: 4px;
-    font-family: Verdana, sans-serif;
-    color:rgb(213, 94, 45)
+  background-color: rgb(246, 240, 241);
+  margin: 15% auto;
+  padding: 20px;
+  border: none;
+  width: 25%;
+  border-radius: 4px;
+  font-family: Verdana, sans-serif;
+  color: rgb(213, 94, 45);
 }
 #saraksts {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .darbinins {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    border: none;
-    border-radius: 15px;
-    height: 60px;
-    width: 75%;
-    padding: 15px;
-    margin: 20px;
-    margin-left: 10%;
-    background-color: rgba(236, 234, 227, 0.397);
-    font-family: Verdana, sans-serif;
-    color: rgb(42, 105, 33);
-    font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  height: 60px;
+  width: 75%;
+  padding: 15px;
+  margin: 20px;
+  margin-left: 10%;
+  background-color: rgba(236, 234, 227, 0.397);
+  font-family: Verdana, sans-serif;
+  color: rgb(42, 105, 33);
+  font-size: 25px;
 }
-
